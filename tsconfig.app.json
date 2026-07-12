@@ -16,10 +16,9 @@
     "noEmit": true,
     "jsx": "react-jsx",
 
-    /* 추가 */
-    "baseUrl": ".",
+
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["./src/*"],
     },
 
     /* Linting */
