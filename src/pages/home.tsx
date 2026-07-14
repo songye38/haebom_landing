@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "wouter";
 import {
   HeartHandshake,
-  UserRound,
+  // UserRound,
   ShieldCheck,
   Info,
   UserCheck,
@@ -23,7 +23,7 @@ import therapistImage from "@/assets/therapist-video.png";
 const CLASS_SIGNUP_URL =
   "https://e22f823f-6ce6-4ec7-928a-249c39d29133-00-22xqkt9bas4zr.sisko.replit.dev/";
 
-const MY_PAGE_URL = "https://rehab-coach-ai.replit.app/";
+// const MY_PAGE_URL = "https://rehab-coach-ai.replit.app/";
 
 const painPoints = [
   {
@@ -154,7 +154,7 @@ export default function Home() {
             <HeartHandshake className="w-6 h-6" />
             <span>온라인 재활 코칭</span>
           </div>
-          <a
+          {/* <a
             href={MY_PAGE_URL}
             target="_blank"
             rel="noopener noreferrer"
@@ -164,7 +164,7 @@ export default function Home() {
           >
             <UserRound className="w-4 h-4" />
             마이페이지
-          </a>
+          </a> */}
         </div>
       </header>
 
