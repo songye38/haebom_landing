@@ -17,12 +17,6 @@ import {
   Footprints,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import {
-  Accordion,
-  AccordionItem,
-  AccordionTrigger,
-  AccordionContent,
-} from "@/components/ui/accordion";
 import heroImage from "@/assets/hero-rehab.png";
 import therapistImage from "@/assets/therapist-video.png";
 
@@ -115,26 +109,26 @@ const caregiverEducationItems = [
   },
 ];
 
-const faqItems = [
-  {
-    value: "item-1",
-    question: "비용은 어떻게 되나요?",
-    answer:
-      "첫 상담 및 안내는 100% 무료로 진행됩니다. 상담을 통해 환자분의 상태와 필요한 세션 횟수를 파악한 후, 무리되지 않는 합리적인 비용을 투명하게 안내해 드립니다. 상담 후 진행하지 않으셔도 전혀 괜찮습니다.",
-  },
-  {
-    value: "item-2",
-    question: "무엇을 준비해야 하나요?",
-    answer:
-      "화상 통화가 가능한 스마트폰이나 태블릿 하나면 충분합니다. 복잡한 기기나 도구는 필요하지 않으며, 집안의 평범한 공간에서 안전하게 진행할 수 있도록 치료사가 화면을 보며 환경 설정을 도와드립니다.",
-  },
-  {
-    value: "item-3",
-    question: "1회 코칭은 얼마나 걸리나요?",
-    answer:
-      "보통 1회에 40분~50분 정도 소요됩니다. 환자분의 체력과 당일 컨디션에 따라 유연하게 조절하며, 중간중간 충분한 휴식 시간을 가지며 안전을 최우선으로 진행합니다.",
-  },
-];
+// const faqItems = [
+//   {
+//     value: "item-1",
+//     question: "비용은 어떻게 되나요?",
+//     answer:
+//       "첫 상담 및 안내는 100% 무료로 진행됩니다. 상담을 통해 환자분의 상태와 필요한 세션 횟수를 파악한 후, 무리되지 않는 합리적인 비용을 투명하게 안내해 드립니다. 상담 후 진행하지 않으셔도 전혀 괜찮습니다.",
+//   },
+//   {
+//     value: "item-2",
+//     question: "무엇을 준비해야 하나요?",
+//     answer:
+//       "화상 통화가 가능한 스마트폰이나 태블릿 하나면 충분합니다. 복잡한 기기나 도구는 필요하지 않으며, 집안의 평범한 공간에서 안전하게 진행할 수 있도록 치료사가 화면을 보며 환경 설정을 도와드립니다.",
+//   },
+//   {
+//     value: "item-3",
+//     question: "1회 코칭은 얼마나 걸리나요?",
+//     answer:
+//       "보통 1회에 40분~50분 정도 소요됩니다. 환자분의 체력과 당일 컨디션에 따라 유연하게 조절하며, 중간중간 충분한 휴식 시간을 가지며 안전을 최우선으로 진행합니다.",
+//   },
+// ];
 
 export default function Home() {
   const [scrolled, setScrolled] = useState(false);
@@ -380,7 +374,7 @@ export default function Home() {
           <h2 className="text-2xl md:text-3xl font-bold text-center mb-12">
             자주 묻는 질문
           </h2>
-          <Accordion type="single" collapsible className="w-full space-y-4">
+          {/* <Accordion type="single" collapsible className="w-full space-y-4">
             {faqItems.map((item) => (
               <AccordionItem
                 key={item.value}
@@ -395,7 +389,7 @@ export default function Home() {
                 </AccordionContent>
               </AccordionItem>
             ))}
-          </Accordion>
+          </Accordion> */}
         </div>
       </section>
 
