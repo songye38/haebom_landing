@@ -206,10 +206,10 @@ export default function Home() {
                 수업 신청하기
               </a>
             </Button>
-            <p className="mt-4 text-sm text-muted-foreground flex items-center justify-center gap-1.5">
+            {/* <p className="mt-4 text-sm text-muted-foreground flex items-center justify-center gap-1.5">
               <Info className="w-4 h-4" />첫 상담은 무료, 언제든 그만두셔도
               괜찮아요
-            </p>
+            </p> */}
           </div>
         </div>
       </section>
@@ -415,10 +415,10 @@ export default function Home() {
                 수업 신청하기
               </a>
             </Button>
-            <p className="mt-4 text-sm text-muted-foreground flex items-center justify-center gap-1.5">
+            {/* <p className="mt-4 text-sm text-muted-foreground flex items-center justify-center gap-1.5">
               <Info className="w-4 h-4" />첫 상담은 무료, 언제든 그만두셔도
               괜찮아요
-            </p>
+            </p> */}
           </div>
         </div>
       </section>
